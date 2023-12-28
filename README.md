@@ -20,4 +20,4 @@
    4. Izmantojot "for ciklus", lapā "result" tiek ievietoti vārdi no masīviem: **"words", "Translations", "Translations_2"**
       
 ## P.S.
-Programma kopumā apstrādā un tulko datus 15 min. Tiek izmantots "Yandex" tulkotājs, jo ar citiem tulkošānas rīkiem, kā "Deepl.com" un "GoogleTranslate.com" bija vairākas problēmas, tādas kā: automatīskā HTML "id" elementu nejauša mainība tīmeklī, ka arī dažādas problēmas ar sertifikātu valīdāciju, kas neļava ņemt pārtulkotus vārdus un saglabāt masīvā. Arī šo iemēslu dēļ netiek realizēta vārdu definīcijas idēja. Darbu izpildīja **Ēriks Baumanis 231RDC032**  
+Lai iedarbinātu programmu, ir nepieciešāms lējupielādēt repozitorīju, un palaist kompilātorā. Programma kopumā apstrādā un tulko datus 15 min. Tiek izmantots "Yandex" tulkotājs, jo ar citiem tulkošānas rīkiem, kā "Deepl.com" un "GoogleTranslate.com" bija vairākas problēmas, tādas kā: automatīskā HTML "id" elementu nejauša mainība tīmeklī, ka arī dažādas problēmas ar sertifikātu valīdāciju, kas neļava ņemt pārtulkotus vārdus un saglabāt masīvā. Arī šo iemēslu dēļ netiek realizēta vārdu definīcijas idēja. Darbu izpildīja **Ēriks Baumanis 231RDC032**  
