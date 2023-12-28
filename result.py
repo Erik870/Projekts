@@ -54,4 +54,29 @@ for word in words:          #Cikls kurš partilko vārdus uz latviešu valodu
     Translations.append(translated_text)    #pievieno pārtulkotu vārdu masīvā "Translations[]"
 
 
-driver.close()
+#Tulkotāja "URL", kurš tulko krievu valodā 
+    
+url_2 = "https://translate.yandex.com/en/?source_lang=en&target_lang=ru"
+
+
+for word in words:
+    
+    driver.get(url_2)
+
+    input_field=driver.find_element(By.XPATH, "//*[@id='fakeArea']")
+
+    time.sleep(2)
+    
+    input_field.clear()
+    input_field.send_keys(word)
+    
+    time.sleep(2)
+
+    translated_text = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'translation')]"))).text
+
+    print(translated_text)  #izdruka pārtulkotu vārdu, kurš tikko boja iekopēts
+    
+    Translations_2.append(translated_text) #pievieno pārtulkotu vārdu masīvā "Translations_2[]"
+
+driver.close() #slēdz tīmekļa lapu
+
